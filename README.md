@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Check it out at: https://desolate-eyrie-31947.herokuapp.com/
 
-Things you may want to cover:
+## Local Setup:
 
-* Ruby version
+```
+bundle install
+rails server
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## rspecs
+```
+rails spec
+```
