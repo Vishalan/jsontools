@@ -1,0 +1,13 @@
+<%= form_for :compare, url: { action: :execute }, html: { multipart: true }, method: :post do |f|   %>
+  <label>Select two JSON files to compare: </label>
+  <p>
+  <%= file_field_tag :first_json %>
+  <%= file_field_tag :second_json %>
+  </p>
+  
+  <p><%= f.submit 'Compare' %></p>
+<% end %>
+
+<% unless @result.nil? %>
+  <p> Similarity = <%= @result %> </p>
+<% end %>
